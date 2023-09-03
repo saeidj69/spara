@@ -2,7 +2,9 @@
 
 This Is a Task For Spara Compony.
 
-#In This Task Impelemented A AccessibleDropdownMenu 
+# In This Task Impelemented A AccessibleDropdownMenu 
+
+# Function of the keys
 1.Enter:open menu
 2.Esc:close menu
 3.Down Arrow:down and close sub menu
