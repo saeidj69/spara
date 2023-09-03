@@ -1,0 +1,33 @@
+scalar DateTime
+scalar URL
+
+type User {
+  id: ID!
+  name: String!
+  email: String!
+  username: String!
+  profile: Profile!
+}
+
+type Profile {
+  subscription: Subscription!
+  avatar: URL!
+  bio: String
+  website: URL
+}
+
+type Subscription {
+  plan: SubscriptionPlan!
+  startDate: DateTime!
+  endDate: DateTime!
+}
+
+enum SubscriptionPlan {
+  FREE
+  PRO
+  ENTERPRISE
+}
+
+type Query {
+  me: User!
+}
